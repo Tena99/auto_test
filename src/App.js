@@ -1,15 +1,14 @@
 import "./App.css";
-import { Link } from "react-router-dom";
+import Form from "./components/Form"
 
 function App() {
   return (
     <div className="App">
       <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
+        <h2>Welcome to the VIN Decoder!</h2>
+          <Form/>
       </main>
       <nav>
-        <Link to="/about">About</Link>
       </nav>
     </div>
   );

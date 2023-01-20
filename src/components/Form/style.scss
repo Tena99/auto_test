@@ -1,0 +1,22 @@
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+
+  label, input, button {
+    margin-bottom: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+ width: 50%;
+}
